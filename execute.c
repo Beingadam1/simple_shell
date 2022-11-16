@@ -2,7 +2,6 @@
 /**
  * execute_proc - similar to puts in C
  * @cmd: a pointer the integer we want to set to 402
- *
  * Return: int
  */
 
