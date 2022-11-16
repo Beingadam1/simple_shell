@@ -1,14 +1,12 @@
 #include "header.h"
 
-
 /**
  * execute - Runs a given program
  * @command: command to run
  * @arguments: arguments to pass to execve
  * @av: name of the program
- *
  * Return: -1 if it breaks, 0 if it doesn't
-*/
+ */
 
 int execute(char *command, char **arguments, char *av)
 {
@@ -34,9 +32,8 @@ int execute(char *command, char **arguments, char *av)
  * @ac: Ammount of arguments passed
  * @av: Arguments passed
  * @env: Enviroment variables
- *
  * Return: 0 if success
-*/
+ */
 
 int main(int ac __attribute__((unused)), char **av, char **env)
 {
@@ -89,10 +86,9 @@ int main(int ac __attribute__((unused)), char **av, char **env)
  * @lines: ammount of lines
  * @env: enviroment variable
  * @av: arguments
- * @err: error pointer
- *
+ * @err: error pointe
  * Return: 10 if success, 0 if exit, 1 if continue, -1 if return-1
-*/
+ */
 
 int shell(char *line, char **split, int lines, char **env, char **av, int *err)
 {
@@ -142,7 +138,7 @@ int shell(char *line, char **split, int lines, char **env, char **av, int *err)
  * @lines: Ammount of lines so far
  * @split: proccessed input
  * @av: ammount of lines
-*/
+ */
 
 void not_found(int lines, char *split, char **av)
 {
@@ -160,7 +156,6 @@ void not_found(int lines, char *split, char **av)
 /**
  * line_maker - Creates the input variable
  * @size: Size of the malloc
- *
  * Return: input
  */
 
