@@ -3,7 +3,6 @@
 /**
  * arraycleaner - Clears a double pointer
  * @str: Double pointer to clean
- *
  * Return: 1
  */
 
@@ -19,5 +18,3 @@ int arraycleaner(char **str)
 
 	return (1);
 }
-Footer
-
