@@ -3,9 +3,8 @@
  * getenviroment - gets the env variable needed
  * @name: name of the env variable
  * @environ: env variables
- *
  * Return: the line with the env variable
-*/
+ */
 
 char *getenviroment(char *name, char **environ)
 {
@@ -28,9 +27,8 @@ char *getenviroment(char *name, char **environ)
  * getpath - Gets the PATH variable
  * @environ: enviroment variable
  * @input: command pass by user
- *
  * Return: the splitted PATH variable
-*/
+ */
 
 char *getpath(char **environ, char *input)
 {
