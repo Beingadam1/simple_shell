@@ -3,7 +3,6 @@
 /**
  * _strlen - Counts the length of a string
  * @str: string to count
- *
  * Return: the ammount of chars of the string
 */
 
@@ -20,10 +19,9 @@ int _strlen(char *str)
 
 /**
  * _strdup - duplicates a given string
- * @str: string to duplicae
- *
+ * @str: string to duplicate
  * Return: A pointer to a duplicate of the string given
-*/
+ */
 
 char *_strdup(char *str)
 {
@@ -54,9 +52,8 @@ char *_strdup(char *str)
  * split_line - splits a string into a 2d array based on delim
  * @str: string to split
  * @delim: delimiter to take into account to split the string
- *
  * Return: A double pointer of chars with the string splitted
-*/
+ */
 
 char **split_line(char *str, char *delim)
 {
@@ -106,9 +103,8 @@ char **split_line(char *str, char *delim)
  * _strcmp - Compares two arrays
  * @origin: 1st array
  * @comp: 2nd array
- *
  * Return: 1 if same, 0 if different
-*/
+ */
 
 int _strcmp(char *origin, char *comp)
 {
@@ -129,9 +125,8 @@ int _strcmp(char *origin, char *comp)
 /**
  * numbertostring - Calculates the ammount of digits
  * @n: number to evaluate
- *
  * Return: The ammount of digits
-*/
+ */
 
 char *numbertostring(int n)
 {
